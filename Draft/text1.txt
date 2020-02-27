@@ -1,0 +1,15 @@
+Des appels successifs à votre fonction get_next_line doivent vous permettre de
+lire l’entièreté du texte disponible sur le file descriptor, une ligne à la fois, jusqu’au
+EOF.
+• La libft n’est pas autorisée sur ce projet. Vous devez aujouter le fichier get_next_line_utils.c
+qui contiendra les fonctions nécessaires au fonctionnement de votre get_next_line.
+• Assurez-vous que votre fonction se comporte correctement lorsque vous lisez depuis
+un fichier ou la sortie standard.
+• Votre programme doit compiler avec le flag -D BUFFER_SIZE=xx Ce define doit
+être utilisé dans vos appels de read du get_next_line, pour définir la taille du
+buffer. Cette valeur sera modifiée lors de l’évaluation et par la moulinette.
+• Compilation : gcc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c
+get_next_line_utils.c
+• Votre read DOIT utiliser le BUFFER_SIZE pour lire depuis un fichier ou depuis
+le stdin.
+• Dans le fichier header get_next_line.h, vous devez avoir au moins le prototype

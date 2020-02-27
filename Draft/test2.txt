@@ -1,0 +1,11 @@
+Premiere ligne.
+Deuxieme ligne.
+Une ligne.
+La troisieme lignes.
+La derniere des dernieres des dernieres lignes.
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <stdio.h>
+vogsphere@vogsphere.42.fr:intra/2019/activities/42cursus_libft/oel-ahma6
